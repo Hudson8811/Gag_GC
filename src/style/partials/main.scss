@@ -61,12 +61,12 @@ img {
 }
 
 .title{
-	font-size: 26px;
+	font-size: 24.9px;
 	line-height: 24px;
 	text-transform: uppercase;
 	text-align: center;
 	@include m1024{
-		font-size: vw2(36);
+		font-size: vw2(40);
 		line-height: vw2(24);
 	}
 }
@@ -88,11 +88,28 @@ img {
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
+	padding-right: 14px;
+	&::after{
+		content: "";
+		display: block;
+		width: 17px;
+		height: 17px;
+		position: absolute;
+		right: 0;
+		top: 0;
+		background: url("../images/trademark.svg") center center no-repeat;
+		background-size: contain;
+	}
 	@include m1024{
 		margin-bottom: vw2(68);
 		margin-top: vw2(70);
 		width: vw4(533);
 		height: vw4(100);
+		padding-right: vw4(14);
+		&::after {
+			width: vw4(17);
+			height: vw4(17);
+		}
 	}
 	img{
 		display: block;
@@ -247,6 +264,17 @@ img {
 			}
 			&.email{
 				letter-spacing: -0.08em;
+			}
+		}
+	}
+	&-2{
+		.contacts__item{
+			margin: 0 !important;
+			+.contacts__item{
+				margin-left: 35px !important;
+				@include m1024{
+					margin-left: vw2(60) !important;
+				}
 			}
 		}
 	}
