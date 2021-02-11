@@ -87,11 +87,13 @@ img {
 	width: vw(533);
 	height: vw(100);
 	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 	@include m1024{
 		margin-bottom: vw2(68);
 		margin-top: vw2(70);
-		width: vw2(533);
-		height: vw2(100);
+		width: vw4(533);
+		height: vw4(100);
 	}
 	img{
 		display: block;
@@ -109,8 +111,8 @@ img {
 		border-radius: 100%;
 		overflow: hidden;
 		@include m1024{
-			width: vw2(100);
-			height: vw2(100);
+			width: vw4(100);
+			height: vw4(100);
 		}
 		&::after {
 			content: "";
@@ -138,6 +140,8 @@ img {
 	width: vw(643);
 	height: vw(134);
 	position: relative;
+	margin-left: auto;
+	margin-right: auto;
 	@include m1024{
 		margin-bottom: vw2(107);
 		margin-top: vw2(87);

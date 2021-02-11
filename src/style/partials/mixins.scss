@@ -16,5 +16,9 @@
 }
 
 @function vw3($px) {
+	@return (($px/800) * 100)+vw;
+}
+
+@function vw4($px) {
 	@return (($px/660) * 100)+vw;
 }
