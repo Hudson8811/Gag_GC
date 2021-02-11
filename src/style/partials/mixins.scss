@@ -12,13 +12,13 @@
 
 
 @function vw2($px) {
-	@return (($px/550) * 100)+vw;
+	@return (($px/765) * 100)+vw;
 }
 
 @function vw3($px) {
-	@return (($px/800) * 100)+vw;
+	@return (($px/1080) * 100)+vw;
 }
 
 @function vw4($px) {
-	@return (($px/660) * 100)+vw;
+	@return (($px/925) * 100)+vw;
 }
