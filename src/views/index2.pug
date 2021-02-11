@@ -1,0 +1,33 @@
+extends layouts/default
+block favicon
+    link(rel='shortcut icon' href='img/favicon_2.ico' type='image/x-icon')
+block vars
+    -
+        const page = {
+            title: 'Управляющая компания'
+        };
+
+
+
+
+block main
+    .content
+        .title2 Управляющая компания
+        .logo2
+            img(src="images/logo2.svg" alt="")
+            .logo2__blick
+
+        .info
+            | НАШ САЙТ НАХОДИТСЯ НА РЕКОНСТРУКЦИИ
+            br
+            span ПРИНОСИМ СВОИ ИЗВИНЕНИЯ ЗА НЕУДОБСТВА
+
+        .contacts
+            .contacts__item
+                .contacts__item-icon
+                    img(src="img/phone.svg" alt="")
+                a.contacts__item-link(href="tel:+78002015654") 8 800 201 5654
+            .contacts__item
+                .contacts__item-icon
+                    img(src="img/mail.svg" alt="")
+                a.contacts__item-link.email(href="mailto:office@grocery-village.ru") Office@Grocery-Village.ru
