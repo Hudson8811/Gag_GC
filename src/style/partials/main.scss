@@ -61,22 +61,20 @@ img {
 }
 
 .title{
-	font-size: 24.9px;
+	font-size: 29.4px;
 	line-height: 24px;
-	text-transform: uppercase;
 	text-align: center;
 	@include m1024{
-		font-size: vw2(40);
+		font-size: vw2(48.5);
 		line-height: vw2(24);
 	}
 }
 .title2{
-	font-size: 18px;
+	font-size: 21.1px;
 	line-height: 24px;
-	text-transform: uppercase;
 	text-align: center;
 	@include m1024{
-		font-size: vw2(30);
+		font-size: vw2(35);
 		line-height: vw2(24);
 	}
 }
