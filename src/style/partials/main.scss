@@ -66,7 +66,7 @@ img {
 	text-transform: uppercase;
 	text-align: center;
 	@include m1024{
-		font-size: vw2(40);
+		font-size: vw2(24.9);
 		line-height: vw2(24);
 	}
 }
@@ -76,7 +76,7 @@ img {
 	text-transform: uppercase;
 	text-align: center;
 	@include m1024{
-		font-size: vw2(30);
+		font-size: vw2(18);
 		line-height: vw2(24);
 	}
 }
@@ -101,14 +101,14 @@ img {
 		background-size: contain;
 	}
 	@include m1024{
-		margin-bottom: vw2(68);
-		margin-top: vw2(70);
-		width: vw4(533);
-		height: vw4(100);
-		padding-right: vw4(14);
+		margin-bottom: vw2(59);
+		margin-top: vw2(63);
+		width: vw2(357);
+		height: vw2(68);
+		padding-right: vw2(14);
 		&::after {
-			width: vw4(17);
-			height: vw4(17);
+			width: vw2(17);
+			height: vw2(17);
 		}
 	}
 	img{
@@ -127,8 +127,8 @@ img {
 		border-radius: 100%;
 		overflow: hidden;
 		@include m1024{
-			width: vw4(100);
-			height: vw4(100);
+			width: vw2(68);
+			height: vw2(68);
 		}
 		&::after {
 			content: "";
@@ -144,7 +144,7 @@ img {
 			-webkit-transform: skewX(-50deg);
 			transform: skewX(-50deg);
 			@include m1024{
-				background-size: 5vw 100%;
+				background-size: vw2(50) 100%;
 			}
 		}
 		&.blink_on::after{
@@ -162,10 +162,10 @@ img {
 	margin-left: auto;
 	margin-right: auto;
 	@include m1024{
-		margin-bottom: vw2(107);
-		margin-top: vw2(87);
-		width: vw3(643);
-		height: vw3(134);
+		margin-bottom: vw2(54);
+		margin-top: vw2(55);
+		width: vw2(371);
+		height: vw2(78);
 	}
 	img{
 		display: block;
@@ -183,8 +183,8 @@ img {
 		border-radius: 100%;
 		overflow: hidden;
 		@include m1024{
-			width: vw3(134);
-			height: vw3(134);
+			width: vw2(78);
+			height: vw2(78);
 		}
 		&::after {
 			content: "";
@@ -200,7 +200,7 @@ img {
 			-webkit-transform: skewX(-50deg);
 			transform: skewX(-50deg);
 			@include m1024{
-				background-size: 5vw 100%;
+				background-size: vw2(50) 100%;
 			}
 		}
 		&.blink_on::after{
@@ -218,8 +218,8 @@ img {
 	text-align: center;
 	margin-bottom: 22px;
 	@include m1024{
-		font-size: vw2(18);
-		margin-bottom: vw2(69);
+		font-size: vw2(11);
+		margin-bottom: vw2(22);
 	}
 	span{
 		letter-spacing: -0.04em;
@@ -236,7 +236,7 @@ img {
 		display: flex;
 		align-items: center;
 		@include m1024{
-			margin: 0 vw2(12.5);
+			margin: 0 vw2(7.5);
 		}
 		&-icon{
 			flex-shrink: 0;
@@ -245,9 +245,9 @@ img {
 			height: 12px;
 			display: block;
 			@include m1024{
-				margin-right: vw2(7);
-				width: vw2(20);
-				height: vw2(20);
+				margin-right: vw2(5);
+				width: vw2(12);
+				height: vw2(12);
 			}
 			img{
 				width: 100%;
@@ -259,8 +259,8 @@ img {
 			font-size: 12.4px;
 			line-height: 12px;
 			@include m1024{
-				font-size: vw2(20);
-				line-height: vw2(20);
+				font-size: vw2(12.4);
+				line-height: vw2(12);
 			}
 			&.email{
 				letter-spacing: -0.08em;
@@ -273,7 +273,7 @@ img {
 			+.contacts__item{
 				margin-left: 35px !important;
 				@include m1024{
-					margin-left: vw2(60) !important;
+					margin-left: vw2(35) !important;
 				}
 			}
 		}
@@ -284,8 +284,8 @@ img {
 	margin: 135px auto 0;
 	width: 185px;
 	@include m1024{
-		margin: vw2(44) auto 0;
-		width: vw2(279);
+		margin: vw2(135) auto 0;
+		width: vw2(185);
 	}
 	img{
 		width: 100%;
