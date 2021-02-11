@@ -54,10 +54,9 @@ img {
 	align-items: center;
 	justify-content: center;
 	background: url("../images/background.png") center center no-repeat;
-	background-size: 340px auto;
+	background-size: auto 99%;
 	@include m1024{
 		padding: vw2(30) 0;
-		background-size: vw2(608) auto;
 	}
 }
 
