@@ -49,12 +49,12 @@ img {
 	width: 100%;
 	min-height: 100%;
 	box-sizing: border-box;
-	padding: vw(30) 0;
+	padding: 30px 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	background: url("../images/background.png") center center no-repeat;
-	background-size: vw(608) auto;
+	background-size: 340px auto;
 	@include m1024{
 		padding: vw2(30) 0;
 		background-size: vw2(608) auto;
@@ -62,8 +62,8 @@ img {
 }
 
 .title{
-	font-size: vw(36);
-	line-height: vw(24);
+	font-size: 26px;
+	line-height: 24px;
 	text-transform: uppercase;
 	text-align: center;
 	@include m1024{
@@ -72,8 +72,8 @@ img {
 	}
 }
 .title2{
-	font-size: vw(30);
-	line-height: vw(24);
+	font-size: 18px;
+	line-height: 24px;
 	text-transform: uppercase;
 	text-align: center;
 	@include m1024{
@@ -82,10 +82,10 @@ img {
 	}
 }
 .logo{
-	margin-bottom: vw(68);
-	margin-top: vw(70);
-	width: vw(533);
-	height: vw(100);
+	margin-bottom: 59px;
+	margin-top: 63px;
+	width: 357px;
+	height: 68px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -101,8 +101,8 @@ img {
 		height: 100%;
 	}
 	&__blick{
-		width: vw(100);
-		height: vw(100);
+		width: 68px;
+		height: 68px;
 		display: block;
 		position: absolute;
 		left: 0;
@@ -122,11 +122,14 @@ img {
 			width: 100%;
 			height: 100%;
 			background: linear-gradient(to left, rgba(121, 117, 117, 0), rgba(255,255,255,.8), rgba(121, 117, 117, 0)) no-repeat 0 0%;
-			background-size: 5vw 100%;
+			background-size: 50px 100%;
 			-moz-transform: skewX(-50deg);
 			-o-transform: skewX(-50deg);
 			-webkit-transform: skewX(-50deg);
 			transform: skewX(-50deg);
+			@include m1024{
+				background-size: 5vw 100%;
+			}
 		}
 		&.blink_on::after{
 			transition: 1s linear;
@@ -135,10 +138,10 @@ img {
 	}
 }
 .logo2{
-	margin-bottom: vw(107);
-	margin-top: vw(87);
-	width: vw(643);
-	height: vw(134);
+	margin-bottom: 54px;
+	margin-top: 55px;
+	width: 371px;
+	height: 78px;
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -154,8 +157,8 @@ img {
 		height: 100%;
 	}
 	&__blick{
-		width: vw(134);
-		height: vw(134);
+		width: 78px;
+		height: 78px;
 		display: block;
 		position: absolute;
 		left: 0;
@@ -175,11 +178,14 @@ img {
 			width: 100%;
 			height: 100%;
 			background: linear-gradient(to left, rgba(121, 117, 117, 0), rgba(255,255,255,.8), rgba(121, 117, 117, 0)) no-repeat 0 0%;
-			background-size: 5vw 100%;
+			background-size: 50px 100%;
 			-moz-transform: skewX(-50deg);
 			-o-transform: skewX(-50deg);
 			-webkit-transform: skewX(-50deg);
 			transform: skewX(-50deg);
+			@include m1024{
+				background-size: 5vw 100%;
+			}
 		}
 		&.blink_on::after{
 			transition: 1s linear;
@@ -189,12 +195,12 @@ img {
 }
 
 .info{
-	font-size: vw(18);
+	font-size: 11px;
 	line-height: 1.4;
 	text-transform: uppercase;
 	letter-spacing: 0.02em;
 	text-align: center;
-	margin-bottom: vw(69);
+	margin-bottom: 22px;
 	@include m1024{
 		font-size: vw2(18);
 		margin-bottom: vw2(69);
@@ -210,7 +216,7 @@ img {
 	align-items: flex-start;
 	justify-content: center;
 	&__item{
-		margin: 0 vw(12.5);
+		margin: 0 7.5px;
 		display: flex;
 		align-items: center;
 		@include m1024{
@@ -218,9 +224,9 @@ img {
 		}
 		&-icon{
 			flex-shrink: 0;
-			margin-right: vw(7);
-			width: vw(20);
-			height: vw(20);
+			margin-right: 5px;
+			width: 12px;
+			height: 12px;
 			display: block;
 			@include m1024{
 				margin-right: vw2(7);
@@ -234,8 +240,8 @@ img {
 			}
 		}
 		&-link{
-			font-size: vw(20);
-			line-height: vw(20);
+			font-size: 12.4px;
+			line-height: 12px;
 			@include m1024{
 				font-size: vw2(20);
 				line-height: vw2(20);
@@ -248,8 +254,8 @@ img {
 }
 
 .apples{
-	margin: vw(44) auto 0;
-	width: vw(279);
+	margin: 135px auto 0;
+	width: 185px;
 	@include m1024{
 		margin: vw2(44) auto 0;
 		width: vw2(279);
