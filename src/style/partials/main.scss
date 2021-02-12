@@ -49,20 +49,20 @@ img {
 	width: 100%;
 	min-height: 100%;
 	box-sizing: border-box;
-	padding: 30px 0;
+	padding: vw(30) 0;
 	display: flex;
 	align-items: center;
 	justify-content: center;
 	background: url("../images/background.png") center center no-repeat;
-	background-size: auto 99%;
+	background-size: auto 100%;
 	@include m1024{
 		padding: vw2(30) 0;
 	}
 }
 
 .title{
-	font-size: 24.9px;
-	line-height: 24px;
+	font-size: vw(24.9);
+	line-height: vw(24);
 	text-transform: uppercase;
 	text-align: center;
 	@include m1024{
@@ -71,8 +71,8 @@ img {
 	}
 }
 .title2{
-	font-size: 18px;
-	line-height: 24px;
+	font-size: vw(18);
+	line-height: vw(24);
 	text-transform: uppercase;
 	text-align: center;
 	@include m1024{
@@ -81,19 +81,19 @@ img {
 	}
 }
 .logo{
-	margin-bottom: 59px;
-	margin-top: 63px;
-	width: 357px;
-	height: 68px;
+	margin-bottom: vw(59);
+	margin-top: vw(63);
+	width: vw(357);
+	height: vw(68);
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
-	padding-right: 14px;
+	padding-right: vw(14);
 	&::after{
 		content: "";
 		display: block;
-		width: 17px;
-		height: 17px;
+		width: vw(17);
+		height: vw(17);
 		position: absolute;
 		right: 0;
 		top: 0;
@@ -117,8 +117,8 @@ img {
 		height: 100%;
 	}
 	&__blick{
-		width: 68px;
-		height: 68px;
+		width: vw(68);
+		height: vw(68);
 		display: block;
 		position: absolute;
 		left: 0;
@@ -138,7 +138,7 @@ img {
 			width: 100%;
 			height: 100%;
 			background: linear-gradient(to left, rgba(121, 117, 117, 0), rgba(255,255,255,.8), rgba(121, 117, 117, 0)) no-repeat 0 0%;
-			background-size: 50px 100%;
+			background-size: vw(50) 100%;
 			-moz-transform: skewX(-50deg);
 			-o-transform: skewX(-50deg);
 			-webkit-transform: skewX(-50deg);
@@ -154,10 +154,10 @@ img {
 	}
 }
 .logo2{
-	margin-bottom: 54px;
-	margin-top: 55px;
-	width: 371px;
-	height: 78px;
+	margin-bottom: vw(54);
+	margin-top: vw(55);
+	width: vw(371);
+	height: vw(78);
 	position: relative;
 	margin-left: auto;
 	margin-right: auto;
@@ -173,8 +173,8 @@ img {
 		height: 100%;
 	}
 	&__blick{
-		width: 78px;
-		height: 78px;
+		width: vw(78);
+		height: vw(78);
 		display: block;
 		position: absolute;
 		left: 0;
@@ -194,7 +194,7 @@ img {
 			width: 100%;
 			height: 100%;
 			background: linear-gradient(to left, rgba(121, 117, 117, 0), rgba(255,255,255,.8), rgba(121, 117, 117, 0)) no-repeat 0 0%;
-			background-size: 50px 100%;
+			background-size: vw(50) 100%;
 			-moz-transform: skewX(-50deg);
 			-o-transform: skewX(-50deg);
 			-webkit-transform: skewX(-50deg);
@@ -211,12 +211,12 @@ img {
 }
 
 .info{
-	font-size: 11px;
+	font-size: vw(11);
 	line-height: 1.4;
 	text-transform: uppercase;
 	letter-spacing: 0.02em;
 	text-align: center;
-	margin-bottom: 22px;
+	margin-bottom: vw(22);
 	@include m1024{
 		font-size: vw2(11);
 		margin-bottom: vw2(22);
@@ -232,7 +232,7 @@ img {
 	align-items: flex-start;
 	justify-content: center;
 	&__item{
-		margin: 0 7.5px;
+		margin: 0 vw(7.5);
 		display: flex;
 		align-items: center;
 		@include m1024{
@@ -240,9 +240,9 @@ img {
 		}
 		&-icon{
 			flex-shrink: 0;
-			margin-right: 5px;
-			width: 12px;
-			height: 12px;
+			margin-right: vw(5);
+			width: vw(12);
+			height: vw(12);
 			display: block;
 			@include m1024{
 				margin-right: vw2(5);
@@ -256,8 +256,8 @@ img {
 			}
 		}
 		&-link{
-			font-size: 12.4px;
-			line-height: 12px;
+			font-size: vw(12.4);
+			line-height: vw(12);
 			@include m1024{
 				font-size: vw2(12.4);
 				line-height: vw2(12);
@@ -271,7 +271,7 @@ img {
 		.contacts__item{
 			margin: 0 !important;
 			+.contacts__item{
-				margin-left: 35px !important;
+				margin-left: vw(35) !important;
 				@include m1024{
 					margin-left: vw2(35) !important;
 				}
@@ -281,8 +281,8 @@ img {
 }
 
 .apples{
-	margin: 135px auto 0;
-	width: 185px;
+	margin: vw(135) auto 0;
+	width: vw(185);
 	@include m1024{
 		margin: vw2(135) auto 0;
 		width: vw2(185);

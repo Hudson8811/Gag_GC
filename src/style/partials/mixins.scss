@@ -7,7 +7,7 @@
 
 
 @function vw($px) {
-	@return (($px/1920) * 100)+vw;
+	@return (($px/1040) * 100)+vh;
 }
 
 
